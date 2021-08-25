@@ -1,0 +1,5 @@
+Enter length of Rectangle : Enter width of Rectangle : Enter radius of Circle : Rectangle Area = 70
+Circle Area = 78.5714
+Rectangle Destructor called
+Circle Destructor called
+End of Program

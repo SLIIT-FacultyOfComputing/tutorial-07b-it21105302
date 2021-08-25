@@ -2,9 +2,21 @@
 #include <iostream>
 using namespace std;
 
-// 4. Implement Default Constructor Implementation
-// 5. Implement Overloaded Constructor Implementation
-// 6. Implement Destructor (display "Destructor Called")
+Item::Item(){           // 4. Implement Default Constructor Implementation
+ 
+ itemCode = 0;
+ unitPrice =0 ;
+ discount = 0;
+}
+Item::Item(int pitemCode, float punitPrice){// 5. Implement Overloaded Constructor Implementation
+
+itemCode= pitemCode;
+unitPrice = punitPrice;
+discount = 0;
+}
+Item::~Item(){ // 6. Implement Destructor (display "Destructor Called")
+cout << "Destructor Called"<< endl;
+}
 
 void Item::setDiscount(float pdiscount) {
   discount = pdiscount;
